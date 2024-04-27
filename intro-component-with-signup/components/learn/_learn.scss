@@ -1,0 +1,58 @@
+.content-learn {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    text-align: left;  
+
+    h1 {
+        color: white;
+        font-size: 44px;
+        display: flex;
+        width: 90%;
+        height: 20vh;
+        margin-bottom: 3vh;
+    }
+
+    p {
+        color: white;
+        font-size: 27px !important;
+        display: flex;
+        width: 90%;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width:324px) {
+   .content-learn {
+    width: 100% !important;
+    height: 100%;
+   }
+   
+   h1 {
+    height: 100% !important;
+    width: 100%;
+    margin-top: 11vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px !important;
+   }
+
+   p {
+    font-size: 15px !important;
+    margin-bottom: 3vh;
+   }
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 29px !important;
+    }
+
+    p {
+        font-size: 17px !important;
+    }
+}

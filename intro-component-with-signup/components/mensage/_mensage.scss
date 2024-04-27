@@ -1,0 +1,43 @@
+.container-mensage {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(143, 63, 197, 0.925);
+    border-radius: 10px;
+    width: 100%;
+    height: 6vh;
+    color: #fff;
+    text-align: center;
+    align-items: center;    
+    margin-bottom: 3vh;
+
+    .paragrafo {
+        width: 100%;
+        height: 100%;
+        font-size: 19px !important;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:894px) {
+   .container-mensage .paragrafo {
+    font-size: 15px !important;
+   }
+}
+
+@media screen and (max-width:324px) {
+
+    .container-mensage {
+        height: 6vh !important;
+        align-items: center !important;
+        border-radius: 0 !important;
+        margin-top: 3vh !important;
+    }
+
+    .container-mensage p {
+        font-size: 12px !important;
+        align-items: center !important;
+    }    
+}
+
